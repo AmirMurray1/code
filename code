@@ -1,0 +1,14 @@
+class time:
+    def __init__(self, Hour, Minute, Second):
+        self.Hour= Hour 
+        self.Minute= Minute
+        self.Second= Second
+def __str__(self):
+    return(f"{self.hour} : {self.Minute}: {self.Second} am")
+
+
+time_1 = time(5,32,00)
+time_2 = time(23,11,11)
+
+print(time_1)
+print(time_2)
